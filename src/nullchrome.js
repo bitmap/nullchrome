@@ -1,7 +1,9 @@
 // cookie whitelist
 const cookieWhitelist = [
-  // 'google.com',
-  // 'github.com'
+  'google.com',
+  'github.com',
+  'amazon.com',
+  'deploybot.com'
 ]
 
 const blockProps = [
