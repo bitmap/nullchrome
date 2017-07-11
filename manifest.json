@@ -1,0 +1,25 @@
+{
+  "name": "nullchrome",
+  "description": "Clean slate club",
+  "version": "1.0",
+  "background": {
+    "scripts": ["src/nullchrome.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "nullchrome"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/nulltab.html"
+  },
+  "icons": {
+    "16": "src/icons/icon32.png",
+    "48": "src/icons/icon96.png"
+  },
+  "permissions": [
+    "privacy",
+    "browsingData",
+    "contentSettings"
+  ],
+  "manifest_version": 2
+}
