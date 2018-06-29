@@ -17,6 +17,7 @@
     "48": "src/icons/icon96.png"
   },
   "permissions": [
+    "tabs",
     "privacy",
     "browsingData",
     "contentSettings"
